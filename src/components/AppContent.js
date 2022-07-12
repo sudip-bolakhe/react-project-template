@@ -4,7 +4,7 @@ import { CContainer, CSpinner } from '@coreui/react'
 
 // routes config
 import routes from '../routes'
-import ProtectedRoute from 'src/app/authGaurd/ProtectedRoute'
+import ProtectedRoute from 'src/app/auth/ProtectedRoute'
 
 const AppContent = () => {
   return (

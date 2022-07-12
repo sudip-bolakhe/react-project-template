@@ -17,7 +17,7 @@ import CIcon from '@coreui/icons-react'
 import { cilLockLocked, cilUser } from '@coreui/icons'
 import login from 'src/app/rest-api/RestAPI'
 import {  useNavigate} from 'react-router-dom'
-import {setToken} from 'src/app/authGaurd/AuthUtil'
+import {setToken} from 'src/app/auth/AuthUtil'
 
 
 const  LoginForm = () => {

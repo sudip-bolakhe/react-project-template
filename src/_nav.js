@@ -24,11 +24,23 @@ const _nav = [
    
   },
   {
-    component: CNavItem,
+    component: CNavGroup,
     name: 'Users',
-    to: '/dashboard',
     icon: <CIcon icon={cilUser} customClassName="nav-icon" />,
-
+    items :[
+      {
+        component: CNavItem,
+        name: 'View Users',
+        to: '/users',
+      },
+       {
+        component: CNavItem,
+        name: 'Add Users',
+        to: '/users/add',
+      },
+      
+     
+    ]
   },
   {
     component: CNavTitle,

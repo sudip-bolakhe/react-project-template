@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Navigate, Outlet } from "react-router-dom";
-import checkAuthenticated from "src/app/authGaurd/AuthUtil"
+import checkAuthenticated from "src/app/auth/AuthUtil"
 
 const ProtectedRoute = () => {
   const auth = checkAuthenticated();
